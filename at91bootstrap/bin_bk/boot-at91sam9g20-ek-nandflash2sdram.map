@@ -1,0 +1,1074 @@
+Archive member included because of file (symbol)
+
+/usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+                              obj/stdio.o (__aeabi_uidiv)
+/usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+                              /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 obj/board_cstartup.o
+ .bss           0x00000000        0x0 obj/board_cstartup.o
+ .data          0x00000000        0x0 obj/cp15_asm.o
+ .bss           0x00000000        0x0 obj/cp15_asm.o
+ .text          0x00000000        0x0 obj/main.o
+ .data          0x00000000        0x0 obj/main.o
+ .bss           0x00000000        0x0 obj/main.o
+ .text          0x00000000        0x0 obj/pio.o
+ .data          0x00000000        0x0 obj/pio.o
+ .bss           0x00000000        0x0 obj/pio.o
+ .text.PIO_GetOutputDataStatus
+                0x00000000        0x0 obj/pio.o
+ .text.PIO_GetISR
+                0x00000000        0x0 obj/pio.o
+ .text          0x00000000        0x0 obj/aic.o
+ .data          0x00000000        0x0 obj/aic.o
+ .bss           0x00000000        0x0 obj/aic.o
+ .text.AIC_ConfigureIT
+                0x00000000        0x0 obj/aic.o
+ .text.AIC_EnableIT
+                0x00000000        0x0 obj/aic.o
+ .text.AIC_DisableIT
+                0x00000000        0x0 obj/aic.o
+ .text          0x00000000        0x0 obj/board_memories.o
+ .data          0x00000000        0x0 obj/board_memories.o
+ .bss           0x00000000        0x0 obj/board_memories.o
+ .text.BOARD_RemapRom
+                0x00000000        0x0 obj/board_memories.o
+ .text.BOARD_ConfigureNandFlash48MHz
+                0x00000000        0x0 obj/board_memories.o
+ .text.BOARD_ConfigureNorFlash
+                0x00000000        0x0 obj/board_memories.o
+ .text.BOARD_ConfigureNorFlash48MHz
+                0x00000000        0x0 obj/board_memories.o
+ .text.BOARD_ConfigureSdram48MHz
+                0x00000000        0x0 obj/board_memories.o
+ .text          0x00000000        0x0 obj/board_lowlevel.o
+ .data          0x00000000        0x0 obj/board_lowlevel.o
+ .bss           0x00000000        0x0 obj/board_lowlevel.o
+ .text          0x00000000        0x0 obj/stdio.o
+ .bss           0x00000000        0x0 obj/stdio.o
+ .text.puts     0x00000000        0x0 obj/stdio.o
+ .text.sprintf  0x00000000        0x0 obj/stdio.o
+ .text.fprintf  0x00000000        0x0 obj/stdio.o
+ .text.snprintf
+                0x00000000        0x0 obj/stdio.o
+ .text          0x00000000        0x0 obj/string.o
+ .data          0x00000000        0x0 obj/string.o
+ .bss           0x00000000        0x0 obj/string.o
+ .text.memset   0x00000000        0x0 obj/string.o
+ .text.strchr   0x00000000        0x0 obj/string.o
+ .text.strlen   0x00000000        0x0 obj/string.o
+ .text.strrchr  0x00000000        0x0 obj/string.o
+ .text.strcpy   0x00000000        0x0 obj/string.o
+ .text.strncmp  0x00000000        0x0 obj/string.o
+ .text.strncpy  0x00000000        0x0 obj/string.o
+ .text          0x00000000        0x0 obj/dbgu.o
+ .data          0x00000000        0x0 obj/dbgu.o
+ .bss           0x00000000        0x0 obj/dbgu.o
+ .text.DBGU_IsRxReady
+                0x00000000        0x0 obj/dbgu.o
+ .text.DBGU_GetChar
+                0x00000000        0x0 obj/dbgu.o
+ .text.putchar  0x00000000        0x0 obj/dbgu.o
+ .text          0x00000000        0x0 obj/trace.o
+ .data          0x00000000        0x0 obj/trace.o
+ .bss           0x00000000        0x0 obj/trace.o
+ .text          0x00000000        0x0 obj/util.o
+ .data          0x00000000        0x0 obj/util.o
+ .bss           0x00000000        0x0 obj/util.o
+ .text.UTIL_DbguGetHexa32
+                0x00000000        0x0 obj/util.o
+ .text.UTIL_DbguGetInteger
+                0x00000000        0x0 obj/util.o
+ .text.UTIL_DbguGetIntegerMinMax
+                0x00000000        0x0 obj/util.o
+ .text.PrintChar
+                0x00000000        0x0 obj/util.o
+ .text.UTIL_DbguDumpMemory
+                0x00000000        0x0 obj/util.o
+ .rodata.str1.1
+                0x00000000        0x0 obj/util.o
+ .text          0x00000000        0x0 obj/BootNand.o
+ .text.BOOT_NAND_EraseBoot
+                0x00000000        0x0 obj/BootNand.o
+ .text          0x00000000        0x0 obj/RawNandFlash.o
+ .data          0x00000000        0x0 obj/RawNandFlash.o
+ .bss           0x00000000        0x0 obj/RawNandFlash.o
+ .text.IsOperationComplete
+                0x00000000        0x0 obj/RawNandFlash.o
+ .text.WriteData
+                0x00000000        0x0 obj/RawNandFlash.o
+ .text.RawNandFlash_EraseBlock
+                0x00000000        0x0 obj/RawNandFlash.o
+ .text.RawNandFlash_WritePage
+                0x00000000        0x0 obj/RawNandFlash.o
+ .text.RawNandFlash_CopyPage
+                0x00000000        0x0 obj/RawNandFlash.o
+ .text.RawNandFlash_CopyBlock
+                0x00000000        0x0 obj/RawNandFlash.o
+ .text          0x00000000        0x0 obj/EccNandFlash.o
+ .data          0x00000000        0x0 obj/EccNandFlash.o
+ .bss           0x00000000        0x0 obj/EccNandFlash.o
+ .text.EccNandFlash_WritePage
+                0x00000000        0x0 obj/EccNandFlash.o
+ .text.EccNandFlash_ReadPage
+                0x00000000        0x0 obj/EccNandFlash.o
+ .text.EccNandFlash_Initialize
+                0x00000000        0x0 obj/EccNandFlash.o
+ .rodata.str1.1
+                0x00000000        0x0 obj/EccNandFlash.o
+ .text          0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .data          0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .bss           0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .text.SkipBlockNandFlash_ReadBlock
+                0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .text.SkipBlockNandFlash_EraseBlock
+                0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .text.SkipBlockNandFlash_WriteBlock
+                0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .text.SkipBlockNandFlash_WritePage
+                0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .text          0x00000000        0x0 obj/NandFlashModel.o
+ .data          0x00000000        0x0 obj/NandFlashModel.o
+ .bss           0x00000000        0x0 obj/NandFlashModel.o
+ .text.NandFlashModel_GetScheme
+                0x00000000        0x0 obj/NandFlashModel.o
+ .text.NandFlashModel_GetDeviceId
+                0x00000000        0x0 obj/NandFlashModel.o
+ .text.NandFlashModel_SupportsCopyBack
+                0x00000000        0x0 obj/NandFlashModel.o
+ .text          0x00000000        0x0 obj/NandFlashModelList.o
+ .data          0x00000000        0x0 obj/NandFlashModelList.o
+ .bss           0x00000000        0x0 obj/NandFlashModelList.o
+ .text          0x00000000        0x0 obj/NandSpareScheme.o
+ .data          0x00000000        0x0 obj/NandSpareScheme.o
+ .bss           0x00000000        0x0 obj/NandSpareScheme.o
+ .text.NandSpareScheme_ReadBadBlockMarker
+                0x00000000        0x0 obj/NandSpareScheme.o
+ .text.NandSpareScheme_WriteBadBlockMarker
+                0x00000000        0x0 obj/NandSpareScheme.o
+ .text.NandSpareScheme_ReadEcc
+                0x00000000        0x0 obj/NandSpareScheme.o
+ .text.NandSpareScheme_WriteEcc
+                0x00000000        0x0 obj/NandSpareScheme.o
+ .text.NandSpareScheme_WriteExtra
+                0x00000000        0x0 obj/NandSpareScheme.o
+ .text.NandSpareScheme_ReadExtra
+                0x00000000        0x0 obj/NandSpareScheme.o
+ .rodata.str1.1
+                0x00000000        0x0 obj/NandSpareScheme.o
+ .text          0x00000000        0x0 obj/hamming.o
+ .data          0x00000000        0x0 obj/hamming.o
+ .bss           0x00000000        0x0 obj/hamming.o
+ .text.CountBitsInByte
+                0x00000000        0x0 obj/hamming.o
+ .text.CountBitsInCode256
+                0x00000000        0x0 obj/hamming.o
+ .text.Compute256
+                0x00000000        0x0 obj/hamming.o
+ .text.Hamming_Compute256x
+                0x00000000        0x0 obj/hamming.o
+ .text.Hamming_Verify256x
+                0x00000000        0x0 obj/hamming.o
+ .text          0x00000000        0x0 obj/cp15.o
+ .data          0x00000000        0x0 obj/cp15.o
+ .bss           0x00000000        0x0 obj/cp15.o
+ .text.CP15_Is_DCacheEnabled
+                0x00000000        0x0 obj/cp15.o
+ .text.CP15_Is_MMUEnabled
+                0x00000000        0x0 obj/cp15.o
+ .text.CP15_Is_I_CacheEnabled
+                0x00000000        0x0 obj/cp15.o
+ .text.CP15_Disable_D_Cache
+                0x00000000        0x0 obj/cp15.o
+ .text.CP15_Enable_D_Cache
+                0x00000000        0x0 obj/cp15.o
+ .text.CP15_DisableMMU
+                0x00000000        0x0 obj/cp15.o
+ .text.CP15_EnableMMU
+                0x00000000        0x0 obj/cp15.o
+ .text.CP15_Disable_I_Cache
+                0x00000000        0x0 obj/cp15.o
+ .data          0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sram0            0x00200000         0x00004000         w !xr
+sram1            0x00300000         0x00004000         w !xr
+sdram            0x20000000         0x04000000         w !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj/board_cstartup.o
+LOAD obj/cp15_asm.o
+LOAD obj/main.o
+LOAD obj/pio.o
+LOAD obj/aic.o
+LOAD obj/board_memories.o
+LOAD obj/board_lowlevel.o
+LOAD obj/stdio.o
+LOAD obj/string.o
+LOAD obj/dbgu.o
+LOAD obj/trace.o
+LOAD obj/util.o
+LOAD obj/BootNand.o
+LOAD obj/RawNandFlash.o
+LOAD obj/EccNandFlash.o
+LOAD obj/SkipBlockNandFlash.o
+LOAD obj/NandFlashModel.o
+LOAD obj/NandFlashModelList.o
+LOAD obj/NandSpareScheme.o
+LOAD obj/hamming.o
+LOAD obj/cp15.o
+START GROUP
+LOAD /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a
+LOAD /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/../../../../arm-none-eabi/lib/libc.a
+END GROUP
+
+.fixed0         0x00200000     0x198c
+                0x00200000                . = ALIGN (0x4)
+                0x00200000                _sfixed0 = .
+ *(.vectors)
+ .vectors       0x00200000       0x6c obj/board_cstartup.o
+ *(.ramfunc)
+ *(.text*)
+ *fill*         0x0020006c        0x4 00
+ .text          0x00200070       0xc0 obj/board_cstartup.o
+                0x00200070                entry
+ .text          0x00200130       0x40 obj/cp15_asm.o
+                0x00200168                _prefetchICacheLine
+                0x00200158                _writeDomain
+                0x00200144                _waitForInterrupt
+                0x00200130                _readControlRegister
+                0x00200150                _writeTTB
+                0x0020013c                _writeControlRegister
+                0x00200160                _writeITLBLockdown
+ .text.main     0x00200170       0x6c obj/main.o
+                0x00200170                main
+ .text.PIO_Configure
+                0x002001dc       0xb8 obj/pio.o
+                0x002001dc                PIO_Configure
+ .text.PIO_Set  0x00200294        0x8 obj/pio.o
+                0x00200294                PIO_Set
+ .text.PIO_Clear
+                0x0020029c        0x8 obj/pio.o
+                0x0020029c                PIO_Clear
+ .text.PIO_Get  0x002002a4       0x2c obj/pio.o
+                0x002002a4                PIO_Get
+ .text.BOARD_RemapRam
+                0x002002d0        0xc obj/board_memories.o
+                0x002002d0                BOARD_RemapRam
+ .text.BOARD_ConfigureNandFlash
+                0x002002dc       0x50 obj/board_memories.o
+                0x002002dc                BOARD_ConfigureNandFlash
+ .text.BOARD_ConfigureSdram
+                0x0020032c       0xec obj/board_memories.o
+                0x0020032c                BOARD_ConfigureSdram
+ .text.defaultSpuriousHandler
+                0x00200418        0x4 obj/board_lowlevel.o
+                0x00200418                defaultSpuriousHandler
+ .text.defaultFiqHandler
+                0x0020041c        0x4 obj/board_lowlevel.o
+                0x0020041c                defaultFiqHandler
+ .text.defaultIrqHandler
+                0x00200420        0x4 obj/board_lowlevel.o
+                0x00200420                defaultIrqHandler
+ .text.LowLevelInit
+                0x00200424       0xe8 obj/board_lowlevel.o
+                0x00200424                LowLevelInit
+ .text.PutChar  0x0020050c        0x8 obj/stdio.o
+                0x0020050c                PutChar
+ .text.PutString
+                0x00200514       0x14 obj/stdio.o
+                0x00200514                PutString
+ .text.PutUnsignedInt
+                0x00200528       0x6c obj/stdio.o
+                0x00200528                PutUnsignedInt
+ .text.PutSignedInt
+                0x00200594       0xa0 obj/stdio.o
+                0x00200594                PutSignedInt
+ .text.PutHexa  0x00200634       0x6c obj/stdio.o
+                0x00200634                PutHexa
+ .text.vsnprintf
+                0x002006a0      0x138 obj/stdio.o
+                0x002006a0                vsnprintf
+ .text.vsprintf
+                0x002007d8       0x14 obj/stdio.o
+                0x002007d8                vsprintf
+ .text.vfprintf
+                0x002007ec       0x50 obj/stdio.o
+                0x002007ec                vfprintf
+ .text.vprintf  0x0020083c       0x1c obj/stdio.o
+                0x0020083c                vprintf
+ .text.printf   0x00200858       0x20 obj/stdio.o
+                0x00200858                printf
+ .text.memcpy   0x00200878       0x2c obj/string.o
+                0x00200878                memcpy
+ .text.DBGU_Configure
+                0x002008a4       0x38 obj/dbgu.o
+                0x002008a4                DBGU_Configure
+ .text.DBGU_PutChar
+                0x002008dc       0x1c obj/dbgu.o
+                0x002008dc                DBGU_PutChar
+ .text.fputc    0x002008f8       0x30 obj/dbgu.o
+                0x002008f8                fputc
+ .text.fputs    0x00200928       0x2c obj/dbgu.o
+                0x00200928                fputs
+ .text.NandInit
+                0x00200954       0xb0 obj/BootNand.o
+ .text.BOOT_NAND_CopyBin
+                0x00200a04       0xdc obj/BootNand.o
+                0x00200a04                BOOT_NAND_CopyBin
+ .text.RawNandFlash_ReadId
+                0x00200ae0       0x44 obj/RawNandFlash.o
+                0x00200ae0                RawNandFlash_ReadId
+ .text.ReadData
+                0x00200b24       0x3c obj/RawNandFlash.o
+ .text.WriteColumnAddress
+                0x00200b60       0x38 obj/RawNandFlash.o
+ .text.WriteRowAddress
+                0x00200b98       0x24 obj/RawNandFlash.o
+ .text.WaitReady
+                0x00200bbc       0x2c obj/RawNandFlash.o
+ .text.RawNandFlash_Reset
+                0x00200be8       0x30 obj/RawNandFlash.o
+                0x00200be8                RawNandFlash_Reset
+ .text.RawNandFlash_ReadPage
+                0x00200c18      0x104 obj/RawNandFlash.o
+                0x00200c18                RawNandFlash_ReadPage
+ .text.RawNandFlash_Initialize
+                0x00200d1c       0x5c obj/RawNandFlash.o
+                0x00200d1c                RawNandFlash_Initialize
+ .text.SkipBlockNandFlash_ReadPage
+                0x00200d78       0x14 obj/SkipBlockNandFlash.o
+                0x00200d78                SkipBlockNandFlash_ReadPage
+ .text.SkipBlockNandFlash_Initialize
+                0x00200d8c       0x2c obj/SkipBlockNandFlash.o
+                0x00200d8c                SkipBlockNandFlash_Initialize
+ .text.CALPOW   0x00200db8       0x18 obj/NandFlashModel.o
+                0x00200db8                CALPOW
+ .text.CALINT   0x00200dd0       0x1c obj/NandFlashModel.o
+                0x00200dd0                CALINT
+ .text.NandFlashModel_GetDeviceSizeInBlocks
+                0x00200dec       0x20 obj/NandFlashModel.o
+                0x00200dec                NandFlashModel_GetDeviceSizeInBlocks
+ .text.NandFlashModel_GetDeviceSizeInBytes
+                0x00200e0c       0x10 obj/NandFlashModel.o
+                0x00200e0c                NandFlashModel_GetDeviceSizeInBytes
+ .text.NandFlashModel_GetBlockSizeInPages
+                0x00200e1c       0x20 obj/NandFlashModel.o
+                0x00200e1c                NandFlashModel_GetBlockSizeInPages
+ .text.NandFlashModel_GetDeviceSizeInPages
+                0x00200e3c       0x1c obj/NandFlashModel.o
+                0x00200e3c                NandFlashModel_GetDeviceSizeInPages
+ .text.NandFlashModel_GetBlockSizeInBytes
+                0x00200e58        0x8 obj/NandFlashModel.o
+                0x00200e58                NandFlashModel_GetBlockSizeInBytes
+ .text.NandFlashModel_GetPageDataSize
+                0x00200e60        0x4 obj/NandFlashModel.o
+                0x00200e60                NandFlashModel_GetPageDataSize
+ .text.NandFlashModel_GetPageSpareSize
+                0x00200e64        0x8 obj/NandFlashModel.o
+                0x00200e64                NandFlashModel_GetPageSpareSize
+ .text.NandFlashModel_GetDataBusWidth
+                0x00200e6c       0x10 obj/NandFlashModel.o
+                0x00200e6c                NandFlashModel_GetDataBusWidth
+ .text.NandFlashModel_HasSmallBlocks
+                0x00200e7c       0x14 obj/NandFlashModel.o
+                0x00200e7c                NandFlashModel_HasSmallBlocks
+ .text.NandFlashModel_Find
+                0x00200e90       0x5c obj/NandFlashModel.o
+                0x00200e90                NandFlashModel_Find
+ .text.NandFlashModel_TranslateAccess
+                0x00200eec       0x60 obj/NandFlashModel.o
+                0x00200eec                NandFlashModel_TranslateAccess
+ .text.CP15_Enable_I_Cache
+                0x00200f4c       0x20 obj/cp15.o
+                0x00200f4c                CP15_Enable_I_Cache
+ .text          0x00200f6c      0x114 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+                0x00200f6c                __udivsi3
+                0x00200f6c                __aeabi_uidiv
+                0x00201060                __aeabi_uidivmod
+ .text          0x00201080        0x4 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+                0x00201080                __aeabi_ldiv0
+                0x00201080                __aeabi_idiv0
+ *(.rodata*)
+ .rodata        0x00201084       0x20 obj/main.o
+                0x00201090                tabDesc
+ .rodata.str1.1
+                0x002010a4        0x6 obj/main.o
+                                  0x7 (size before relaxing)
+ *fill*         0x002010aa        0x2 00
+ .rodata        0x002010ac       0x14 obj/pio.o
+ .rodata        0x002010c0       0x18 obj/board_memories.o
+ .rodata.str1.1
+                0x002010d8       0x24 obj/stdio.o
+ .rodata        0x002010fc       0x30 obj/BootNand.o
+ .rodata.str1.1
+                0x0020112c       0xd1 obj/RawNandFlash.o
+ *fill*         0x002011fd        0x3 00
+ .rodata        0x00201200      0x2b8 obj/NandFlashModelList.o
+                0x00201200                nandFlashModelList
+ .rodata        0x002014b8       0xc3 obj/NandSpareScheme.o
+                0x002014f9                nandSpareScheme512
+                0x002014b8                nandSpareScheme256
+                0x0020153a                nandSpareScheme2048
+ *(.data)
+ *fill*         0x0020157b        0x5 00
+ .data          0x00201580      0x408 obj/stdio.o
+                0x00201588                r
+                0x00201580                _impure_ptr
+ .data          0x00201988        0x1 obj/BootNand.o
+ *(.glue_7)
+ *fill*         0x00201989        0x3 00
+ .glue_7        0x0020198c        0x0 obj/board_cstartup.o
+ .glue_7        0x0020198c        0x0 obj/cp15_asm.o
+ .glue_7        0x0020198c        0x0 obj/main.o
+ .glue_7        0x0020198c        0x0 obj/pio.o
+ .glue_7        0x0020198c        0x0 obj/aic.o
+ .glue_7        0x0020198c        0x0 obj/board_memories.o
+ .glue_7        0x0020198c        0x0 obj/board_lowlevel.o
+ .glue_7        0x0020198c        0x0 obj/stdio.o
+ .glue_7        0x0020198c        0x0 obj/string.o
+ .glue_7        0x0020198c        0x0 obj/dbgu.o
+ .glue_7        0x0020198c        0x0 obj/trace.o
+ .glue_7        0x0020198c        0x0 obj/util.o
+ .glue_7        0x0020198c        0x0 obj/BootNand.o
+ .glue_7        0x0020198c        0x0 obj/RawNandFlash.o
+ .glue_7        0x0020198c        0x0 obj/EccNandFlash.o
+ .glue_7        0x0020198c        0x0 obj/SkipBlockNandFlash.o
+ .glue_7        0x0020198c        0x0 obj/NandFlashModel.o
+ .glue_7        0x0020198c        0x0 obj/NandFlashModelList.o
+ .glue_7        0x0020198c        0x0 obj/NandSpareScheme.o
+ .glue_7        0x0020198c        0x0 obj/hamming.o
+ .glue_7        0x0020198c        0x0 obj/cp15.o
+ .glue_7        0x0020198c        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+ .glue_7        0x0020198c        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+ *(.glue_7t)
+ .glue_7t       0x0020198c        0x0 obj/board_cstartup.o
+ .glue_7t       0x0020198c        0x0 obj/cp15_asm.o
+ .glue_7t       0x0020198c        0x0 obj/main.o
+ .glue_7t       0x0020198c        0x0 obj/pio.o
+ .glue_7t       0x0020198c        0x0 obj/aic.o
+ .glue_7t       0x0020198c        0x0 obj/board_memories.o
+ .glue_7t       0x0020198c        0x0 obj/board_lowlevel.o
+ .glue_7t       0x0020198c        0x0 obj/stdio.o
+ .glue_7t       0x0020198c        0x0 obj/string.o
+ .glue_7t       0x0020198c        0x0 obj/dbgu.o
+ .glue_7t       0x0020198c        0x0 obj/trace.o
+ .glue_7t       0x0020198c        0x0 obj/util.o
+ .glue_7t       0x0020198c        0x0 obj/BootNand.o
+ .glue_7t       0x0020198c        0x0 obj/RawNandFlash.o
+ .glue_7t       0x0020198c        0x0 obj/EccNandFlash.o
+ .glue_7t       0x0020198c        0x0 obj/SkipBlockNandFlash.o
+ .glue_7t       0x0020198c        0x0 obj/NandFlashModel.o
+ .glue_7t       0x0020198c        0x0 obj/NandFlashModelList.o
+ .glue_7t       0x0020198c        0x0 obj/NandSpareScheme.o
+ .glue_7t       0x0020198c        0x0 obj/hamming.o
+ .glue_7t       0x0020198c        0x0 obj/cp15.o
+ .glue_7t       0x0020198c        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+ .glue_7t       0x0020198c        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+                0x0020198c                . = ALIGN (0x4)
+                0x0020198c                _efixed0 = .
+                0x0020198c                _efixed = .
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 obj/board_cstartup.o
+ .vfp11_veneer  0x00000000        0x0 obj/cp15_asm.o
+ .vfp11_veneer  0x00000000        0x0 obj/main.o
+ .vfp11_veneer  0x00000000        0x0 obj/pio.o
+ .vfp11_veneer  0x00000000        0x0 obj/aic.o
+ .vfp11_veneer  0x00000000        0x0 obj/board_memories.o
+ .vfp11_veneer  0x00000000        0x0 obj/board_lowlevel.o
+ .vfp11_veneer  0x00000000        0x0 obj/stdio.o
+ .vfp11_veneer  0x00000000        0x0 obj/string.o
+ .vfp11_veneer  0x00000000        0x0 obj/dbgu.o
+ .vfp11_veneer  0x00000000        0x0 obj/trace.o
+ .vfp11_veneer  0x00000000        0x0 obj/util.o
+ .vfp11_veneer  0x00000000        0x0 obj/BootNand.o
+ .vfp11_veneer  0x00000000        0x0 obj/RawNandFlash.o
+ .vfp11_veneer  0x00000000        0x0 obj/EccNandFlash.o
+ .vfp11_veneer  0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .vfp11_veneer  0x00000000        0x0 obj/NandFlashModel.o
+ .vfp11_veneer  0x00000000        0x0 obj/NandFlashModelList.o
+ .vfp11_veneer  0x00000000        0x0 obj/NandSpareScheme.o
+ .vfp11_veneer  0x00000000        0x0 obj/hamming.o
+ .vfp11_veneer  0x00000000        0x0 obj/cp15.o
+ .vfp11_veneer  0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+ .vfp11_veneer  0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 obj/board_cstartup.o
+ .v4_bx         0x00000000        0x0 obj/cp15_asm.o
+ .v4_bx         0x00000000        0x0 obj/main.o
+ .v4_bx         0x00000000        0x0 obj/pio.o
+ .v4_bx         0x00000000        0x0 obj/aic.o
+ .v4_bx         0x00000000        0x0 obj/board_memories.o
+ .v4_bx         0x00000000        0x0 obj/board_lowlevel.o
+ .v4_bx         0x00000000        0x0 obj/stdio.o
+ .v4_bx         0x00000000        0x0 obj/string.o
+ .v4_bx         0x00000000        0x0 obj/dbgu.o
+ .v4_bx         0x00000000        0x0 obj/trace.o
+ .v4_bx         0x00000000        0x0 obj/util.o
+ .v4_bx         0x00000000        0x0 obj/BootNand.o
+ .v4_bx         0x00000000        0x0 obj/RawNandFlash.o
+ .v4_bx         0x00000000        0x0 obj/EccNandFlash.o
+ .v4_bx         0x00000000        0x0 obj/SkipBlockNandFlash.o
+ .v4_bx         0x00000000        0x0 obj/NandFlashModel.o
+ .v4_bx         0x00000000        0x0 obj/NandFlashModelList.o
+ .v4_bx         0x00000000        0x0 obj/NandSpareScheme.o
+ .v4_bx         0x00000000        0x0 obj/hamming.o
+ .v4_bx         0x00000000        0x0 obj/cp15.o
+ .v4_bx         0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+ .v4_bx         0x00000000        0x0 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+
+.fixed1         0x00300000        0x0
+                0x00300000                . = ALIGN (0x4)
+                0x00300000                _sfixed1 = .
+                0x00300000                . = ALIGN (0x4)
+                0x00300000                _efixed1 = .
+
+.prerelocate    0x00000000        0x0 load address 0x0020198c
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sprerelocate = .
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _eprerelocate = .
+
+.postrelocate   0x00000000        0x0 load address 0x0020198c
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _spostrelocate = .
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _epostrelocate = .
+
+.bss            0x00300000       0x40
+                0x00300000                _szero = .
+ *(.bss)
+ .bss           0x00300000       0x40 obj/BootNand.o
+                0x00300040                . = ALIGN (0x4)
+                0x00300040                _ezero = .
+                0x00304000                _sstack = 0x304000
+                0x00300040                end = .
+OUTPUT(bin/boot-at91sam9g20-ek-nandflash2sdram.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x18 obj/board_cstartup.o
+ .ARM.attributes
+                0x00000018       0x18 obj/cp15_asm.o
+ .ARM.attributes
+                0x00000030       0x28 obj/main.o
+ .ARM.attributes
+                0x00000058       0x28 obj/pio.o
+ .ARM.attributes
+                0x00000080       0x28 obj/aic.o
+ .ARM.attributes
+                0x000000a8       0x28 obj/board_memories.o
+ .ARM.attributes
+                0x000000d0       0x28 obj/board_lowlevel.o
+ .ARM.attributes
+                0x000000f8       0x28 obj/stdio.o
+ .ARM.attributes
+                0x00000120       0x28 obj/string.o
+ .ARM.attributes
+                0x00000148       0x28 obj/dbgu.o
+ .ARM.attributes
+                0x00000170       0x26 obj/trace.o
+ .ARM.attributes
+                0x00000196       0x28 obj/util.o
+ .ARM.attributes
+                0x000001be       0x28 obj/BootNand.o
+ .ARM.attributes
+                0x000001e6       0x28 obj/RawNandFlash.o
+ .ARM.attributes
+                0x0000020e       0x28 obj/EccNandFlash.o
+ .ARM.attributes
+                0x00000236       0x28 obj/SkipBlockNandFlash.o
+ .ARM.attributes
+                0x0000025e       0x28 obj/NandFlashModel.o
+ .ARM.attributes
+                0x00000286       0x26 obj/NandFlashModelList.o
+ .ARM.attributes
+                0x000002ac       0x28 obj/NandSpareScheme.o
+ .ARM.attributes
+                0x000002d4       0x28 obj/hamming.o
+ .ARM.attributes
+                0x000002fc       0x28 obj/cp15.o
+ .ARM.attributes
+                0x00000324       0x14 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000338       0x14 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+
+.debug_line     0x00000000     0x1bb8
+ .debug_line    0x00000000       0xac obj/board_cstartup.o
+ .debug_line    0x000000ac       0x6d obj/cp15_asm.o
+ .debug_line    0x00000119       0xcc obj/main.o
+ .debug_line    0x000001e5      0x142 obj/pio.o
+ .debug_line    0x00000327       0xbf obj/aic.o
+ .debug_line    0x000003e6      0x1d9 obj/board_memories.o
+ .debug_line    0x000005bf       0xef obj/board_lowlevel.o
+ .debug_line    0x000006ae      0x343 obj/stdio.o
+ .debug_line    0x000009f1      0x166 obj/string.o
+ .debug_line    0x00000b57      0x29e obj/dbgu.o
+ .debug_line    0x00000df5       0x1d obj/trace.o
+ .debug_line    0x00000e12       0xe5 obj/util.o
+ .debug_line    0x00000ef7      0x18c obj/BootNand.o
+ .debug_line    0x00001083      0x2ed obj/RawNandFlash.o
+ .debug_line    0x00001370      0x152 obj/EccNandFlash.o
+ .debug_line    0x000014c2      0x1c7 obj/SkipBlockNandFlash.o
+ .debug_line    0x00001689      0x1bc obj/NandFlashModel.o
+ .debug_line    0x00001845       0x7c obj/NandFlashModelList.o
+ .debug_line    0x000018c1       0xed obj/NandSpareScheme.o
+ .debug_line    0x000019ae      0x114 obj/hamming.o
+ .debug_line    0x00001ac2       0xf6 obj/cp15.o
+
+.debug_info     0x00000000     0x6df6
+ .debug_info    0x00000000       0x75 obj/board_cstartup.o
+ .debug_info    0x00000075       0x6e obj/cp15_asm.o
+ .debug_info    0x000000e3      0x4fc obj/main.o
+ .debug_info    0x000005df      0x70e obj/pio.o
+ .debug_info    0x00000ced      0x256 obj/aic.o
+ .debug_info    0x00000f43      0xa1c obj/board_memories.o
+ .debug_info    0x0000195f      0x45e obj/board_lowlevel.o
+ .debug_info    0x00001dbd      0xe81 obj/stdio.o
+ .debug_info    0x00002c3e      0x358 obj/string.o
+ .debug_info    0x00002f96      0xc17 obj/dbgu.o
+ .debug_info    0x00003bad       0x76 obj/trace.o
+ .debug_info    0x00003c23      0x216 obj/util.o
+ .debug_info    0x00003e39      0x672 obj/BootNand.o
+ .debug_info    0x000044ab      0xbdb obj/RawNandFlash.o
+ .debug_info    0x00005086      0x6d2 obj/EccNandFlash.o
+ .debug_info    0x00005758      0x7f8 obj/SkipBlockNandFlash.o
+ .debug_info    0x00005f50      0x538 obj/NandFlashModel.o
+ .debug_info    0x00006488      0x168 obj/NandFlashModelList.o
+ .debug_info    0x000065f0      0x346 obj/NandSpareScheme.o
+ .debug_info    0x00006936      0x2d5 obj/hamming.o
+ .debug_info    0x00006c0b      0x1eb obj/cp15.o
+
+.debug_abbrev   0x00000000     0x1958
+ .debug_abbrev  0x00000000       0x12 obj/board_cstartup.o
+ .debug_abbrev  0x00000012       0x14 obj/cp15_asm.o
+ .debug_abbrev  0x00000026      0x189 obj/main.o
+ .debug_abbrev  0x000001af      0x1a9 obj/pio.o
+ .debug_abbrev  0x00000358       0xce obj/aic.o
+ .debug_abbrev  0x00000426      0x169 obj/board_memories.o
+ .debug_abbrev  0x0000058f       0xa7 obj/board_lowlevel.o
+ .debug_abbrev  0x00000636      0x27c obj/stdio.o
+ .debug_abbrev  0x000008b2      0x10f obj/string.o
+ .debug_abbrev  0x000009c1      0x1ff obj/dbgu.o
+ .debug_abbrev  0x00000bc0       0x33 obj/trace.o
+ .debug_abbrev  0x00000bf3       0xe4 obj/util.o
+ .debug_abbrev  0x00000cd7      0x18f obj/BootNand.o
+ .debug_abbrev  0x00000e66      0x296 obj/RawNandFlash.o
+ .debug_abbrev  0x000010fc      0x156 obj/EccNandFlash.o
+ .debug_abbrev  0x00001252      0x1c8 obj/SkipBlockNandFlash.o
+ .debug_abbrev  0x0000141a      0x18b obj/NandFlashModel.o
+ .debug_abbrev  0x000015a5       0x93 obj/NandFlashModelList.o
+ .debug_abbrev  0x00001638      0x110 obj/NandSpareScheme.o
+ .debug_abbrev  0x00001748      0x18b obj/hamming.o
+ .debug_abbrev  0x000018d3       0x85 obj/cp15.o
+
+.debug_aranges  0x00000000      0x590
+ .debug_aranges
+                0x00000000       0x28 obj/board_cstartup.o
+ .debug_aranges
+                0x00000028       0x20 obj/cp15_asm.o
+ .debug_aranges
+                0x00000048       0x20 obj/main.o
+ .debug_aranges
+                0x00000068       0x48 obj/pio.o
+ .debug_aranges
+                0x000000b0       0x30 obj/aic.o
+ .debug_aranges
+                0x000000e0       0x58 obj/board_memories.o
+ .debug_aranges
+                0x00000138       0x38 obj/board_lowlevel.o
+ .debug_aranges
+                0x00000170       0x88 obj/stdio.o
+ .debug_aranges
+                0x000001f8       0x58 obj/string.o
+ .debug_aranges
+                0x00000250       0x50 obj/dbgu.o
+ .debug_aranges
+                0x000002a0       0x40 obj/util.o
+ .debug_aranges
+                0x000002e0       0x30 obj/BootNand.o
+ .debug_aranges
+                0x00000310       0x88 obj/RawNandFlash.o
+ .debug_aranges
+                0x00000398       0x30 obj/EccNandFlash.o
+ .debug_aranges
+                0x000003c8       0x48 obj/SkipBlockNandFlash.o
+ .debug_aranges
+                0x00000410       0x98 obj/NandFlashModel.o
+ .debug_aranges
+                0x000004a8       0x48 obj/NandSpareScheme.o
+ .debug_aranges
+                0x000004f0       0x40 obj/hamming.o
+ .debug_aranges
+                0x00000530       0x60 obj/cp15.o
+
+.debug_ranges   0x00000000       0xf8
+ .debug_ranges  0x00000000       0x20 obj/board_cstartup.o
+ .debug_ranges  0x00000020       0x18 obj/main.o
+ .debug_ranges  0x00000038       0xa0 obj/RawNandFlash.o
+ .debug_ranges  0x000000d8       0x20 obj/hamming.o
+
+.debug_frame    0x00000000      0xd10
+ .debug_frame   0x00000000       0x28 obj/main.o
+ .debug_frame   0x00000028       0x90 obj/pio.o
+ .debug_frame   0x000000b8       0x4c obj/aic.o
+ .debug_frame   0x00000104       0xc8 obj/board_memories.o
+ .debug_frame   0x000001cc       0x70 obj/board_lowlevel.o
+ .debug_frame   0x0000023c      0x198 obj/stdio.o
+ .debug_frame   0x000003d4       0xd8 obj/string.o
+ .debug_frame   0x000004ac       0xb8 obj/dbgu.o
+ .debug_frame   0x00000564       0xa8 obj/util.o
+ .debug_frame   0x0000060c       0x68 obj/BootNand.o
+ .debug_frame   0x00000674      0x1a8 obj/RawNandFlash.o
+ .debug_frame   0x0000081c       0x78 obj/EccNandFlash.o
+ .debug_frame   0x00000894       0xc8 obj/SkipBlockNandFlash.o
+ .debug_frame   0x0000095c      0x16c obj/NandFlashModel.o
+ .debug_frame   0x00000ac8       0x9c obj/NandSpareScheme.o
+ .debug_frame   0x00000b64       0xa4 obj/hamming.o
+ .debug_frame   0x00000c08       0xe8 obj/cp15.o
+ .debug_frame   0x00000cf0       0x20 /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+
+.debug_loc      0x00000000     0x305b
+ .debug_loc     0x00000000       0x1f obj/main.o
+ .debug_loc     0x0000001f      0x1b5 obj/pio.o
+ .debug_loc     0x000001d4       0x45 obj/aic.o
+ .debug_loc     0x00000219      0x134 obj/board_memories.o
+ .debug_loc     0x0000034d       0x8f obj/board_lowlevel.o
+ .debug_loc     0x000003dc      0x90e obj/stdio.o
+ .debug_loc     0x00000cea      0x319 obj/string.o
+ .debug_loc     0x00001003      0x1a7 obj/dbgu.o
+ .debug_loc     0x000011aa      0x281 obj/util.o
+ .debug_loc     0x0000142b      0x200 obj/BootNand.o
+ .debug_loc     0x0000162b      0x898 obj/RawNandFlash.o
+ .debug_loc     0x00001ec3      0x286 obj/EccNandFlash.o
+ .debug_loc     0x00002149      0x346 obj/SkipBlockNandFlash.o
+ .debug_loc     0x0000248f      0x47a obj/NandFlashModel.o
+ .debug_loc     0x00002909      0x2ab obj/NandSpareScheme.o
+ .debug_loc     0x00002bb4      0x2ae obj/hamming.o
+ .debug_loc     0x00002e62      0x1f9 obj/cp15.o
+
+.debug_pubnames
+                0x00000000      0xb5b
+ .debug_pubnames
+                0x00000000       0x27 obj/main.o
+ .debug_pubnames
+                0x00000027       0x75 obj/pio.o
+ .debug_pubnames
+                0x0000009c       0x49 obj/aic.o
+ .debug_pubnames
+                0x000000e5       0xeb obj/board_memories.o
+ .debug_pubnames
+                0x000001d0       0x6a obj/board_lowlevel.o
+ .debug_pubnames
+                0x0000023a       0xdf obj/stdio.o
+ .debug_pubnames
+                0x00000319       0x6d obj/string.o
+ .debug_pubnames
+                0x00000386       0x7a obj/dbgu.o
+ .debug_pubnames
+                0x00000400       0x77 obj/util.o
+ .debug_pubnames
+                0x00000477       0x40 obj/BootNand.o
+ .debug_pubnames
+                0x000004b7       0xe3 obj/RawNandFlash.o
+ .debug_pubnames
+                0x0000059a       0x63 obj/EccNandFlash.o
+ .debug_pubnames
+                0x000005fd       0xda obj/SkipBlockNandFlash.o
+ .debug_pubnames
+                0x000006d7      0x216 obj/NandFlashModel.o
+ .debug_pubnames
+                0x000008ed       0x29 obj/NandFlashModelList.o
+ .debug_pubnames
+                0x00000916      0x11d obj/NandSpareScheme.o
+ .debug_pubnames
+                0x00000a33       0x41 obj/hamming.o
+ .debug_pubnames
+                0x00000a74       0xe7 obj/cp15.o
+
+.debug_str      0x00000000     0x1ceb
+ .debug_str     0x00000000      0x264 obj/main.o
+                                0x2b9 (size before relaxing)
+ .debug_str     0x00000264      0x17c obj/pio.o
+                                0x32c (size before relaxing)
+ .debug_str     0x000003e0      0x105 obj/aic.o
+                                0x150 (size before relaxing)
+ .debug_str     0x000004e5      0x483 obj/board_memories.o
+                                0x63c (size before relaxing)
+ .debug_str     0x00000968      0x10c obj/board_lowlevel.o
+                                0x2ab (size before relaxing)
+ .debug_str     0x00000a74      0x477 obj/stdio.o
+                                0x57c (size before relaxing)
+ .debug_str     0x00000eeb       0xdf obj/string.o
+                                0x1bc (size before relaxing)
+ .debug_str     0x00000fca      0x152 obj/dbgu.o
+                                0x5d1 (size before relaxing)
+ .debug_str     0x0000111c       0x1b obj/trace.o
+                                 0xce (size before relaxing)
+ .debug_str     0x00001137       0x98 obj/util.o
+                                0x15e (size before relaxing)
+ .debug_str     0x000011cf      0x1ce obj/BootNand.o
+                                0x412 (size before relaxing)
+ .debug_str     0x0000139d      0x213 obj/RawNandFlash.o
+                                0x527 (size before relaxing)
+ .debug_str     0x000015b0       0xe2 obj/EccNandFlash.o
+                                0x401 (size before relaxing)
+ .debug_str     0x00001692      0x102 obj/SkipBlockNandFlash.o
+                                0x48a (size before relaxing)
+ .debug_str     0x00001794      0x235 obj/NandFlashModel.o
+                                0x395 (size before relaxing)
+ .debug_str     0x000019c9       0x6d obj/NandFlashModelList.o
+                                0x191 (size before relaxing)
+ .debug_str     0x00001a36       0xea obj/NandSpareScheme.o
+                                0x257 (size before relaxing)
+ .debug_str     0x00001b20       0xef obj/hamming.o
+                                0x1bf (size before relaxing)
+ .debug_str     0x00001c0f       0xdc obj/cp15.o
+                                0x18f (size before relaxing)
+
+.comment        0x00000000      0x331
+ .comment       0x00000000       0x2b obj/main.o
+ .comment       0x0000002b       0x2b obj/pio.o
+ .comment       0x00000056       0x2b obj/aic.o
+ .comment       0x00000081       0x2b obj/board_memories.o
+ .comment       0x000000ac       0x2b obj/board_lowlevel.o
+ .comment       0x000000d7       0x2b obj/stdio.o
+ .comment       0x00000102       0x2b obj/string.o
+ .comment       0x0000012d       0x2b obj/dbgu.o
+ .comment       0x00000158       0x2b obj/trace.o
+ .comment       0x00000183       0x2b obj/util.o
+ .comment       0x000001ae       0x2b obj/BootNand.o
+ .comment       0x000001d9       0x2b obj/RawNandFlash.o
+ .comment       0x00000204       0x2b obj/EccNandFlash.o
+ .comment       0x0000022f       0x2b obj/SkipBlockNandFlash.o
+ .comment       0x0000025a       0x2b obj/NandFlashModel.o
+ .comment       0x00000285       0x2b obj/NandFlashModelList.o
+ .comment       0x000002b0       0x2b obj/NandSpareScheme.o
+ .comment       0x000002db       0x2b obj/hamming.o
+ .comment       0x00000306       0x2b obj/cp15.o
+
+Cross Reference Table
+
+Symbol                                            File
+AIC_ConfigureIT                                   obj/aic.o
+AIC_DisableIT                                     obj/aic.o
+AIC_EnableIT                                      obj/aic.o
+BOARD_ConfigureNandFlash                          obj/board_memories.o
+                                                  obj/BootNand.o
+BOARD_ConfigureNandFlash48MHz                     obj/board_memories.o
+BOARD_ConfigureNorFlash                           obj/board_memories.o
+BOARD_ConfigureNorFlash48MHz                      obj/board_memories.o
+BOARD_ConfigureSdram                              obj/board_memories.o
+                                                  obj/main.o
+BOARD_ConfigureSdram48MHz                         obj/board_memories.o
+BOARD_RemapRam                                    obj/board_memories.o
+                                                  obj/board_lowlevel.o
+BOARD_RemapRom                                    obj/board_memories.o
+BOOT_NAND_CopyBin                                 obj/BootNand.o
+                                                  obj/main.o
+BOOT_NAND_EraseBoot                               obj/BootNand.o
+CALINT                                            obj/NandFlashModel.o
+CALPOW                                            obj/NandFlashModel.o
+CP15_DisableMMU                                   obj/cp15.o
+CP15_Disable_D_Cache                              obj/cp15.o
+CP15_Disable_I_Cache                              obj/cp15.o
+CP15_EnableMMU                                    obj/cp15.o
+CP15_Enable_D_Cache                               obj/cp15.o
+CP15_Enable_I_Cache                               obj/cp15.o
+                                                  obj/main.o
+CP15_Is_DCacheEnabled                             obj/cp15.o
+CP15_Is_I_CacheEnabled                            obj/cp15.o
+CP15_Is_MMUEnabled                                obj/cp15.o
+DBGU_Configure                                    obj/dbgu.o
+                                                  obj/main.o
+DBGU_GetChar                                      obj/dbgu.o
+                                                  obj/util.o
+DBGU_IsRxReady                                    obj/dbgu.o
+DBGU_PutChar                                      obj/dbgu.o
+                                                  obj/util.o
+EccNandFlash_Initialize                           obj/EccNandFlash.o
+EccNandFlash_ReadPage                             obj/EccNandFlash.o
+                                                  obj/SkipBlockNandFlash.o
+EccNandFlash_WritePage                            obj/EccNandFlash.o
+                                                  obj/SkipBlockNandFlash.o
+Hamming_Compute256x                               obj/hamming.o
+                                                  obj/EccNandFlash.o
+Hamming_Verify256x                                obj/hamming.o
+                                                  obj/EccNandFlash.o
+LowLevelInit                                      obj/board_lowlevel.o
+                                                  obj/board_cstartup.o
+NandFlashModel_Find                               obj/NandFlashModel.o
+                                                  obj/RawNandFlash.o
+NandFlashModel_GetBlockSizeInBytes                obj/NandFlashModel.o
+                                                  obj/BootNand.o
+NandFlashModel_GetBlockSizeInPages                obj/NandFlashModel.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/RawNandFlash.o
+                                                  obj/BootNand.o
+NandFlashModel_GetDataBusWidth                    obj/NandFlashModel.o
+                                                  obj/RawNandFlash.o
+                                                  obj/BootNand.o
+NandFlashModel_GetDeviceId                        obj/NandFlashModel.o
+NandFlashModel_GetDeviceSizeInBlocks              obj/NandFlashModel.o
+                                                  obj/BootNand.o
+NandFlashModel_GetDeviceSizeInBytes               obj/NandFlashModel.o
+                                                  obj/BootNand.o
+NandFlashModel_GetDeviceSizeInPages               obj/NandFlashModel.o
+                                                  obj/RawNandFlash.o
+NandFlashModel_GetPageDataSize                    obj/NandFlashModel.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/EccNandFlash.o
+                                                  obj/RawNandFlash.o
+                                                  obj/BootNand.o
+NandFlashModel_GetPageSpareSize                   obj/NandFlashModel.o
+                                                  obj/EccNandFlash.o
+                                                  obj/RawNandFlash.o
+NandFlashModel_GetScheme                          obj/NandFlashModel.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/EccNandFlash.o
+NandFlashModel_HasSmallBlocks                     obj/NandFlashModel.o
+                                                  obj/RawNandFlash.o
+NandFlashModel_SupportsCopyBack                   obj/NandFlashModel.o
+                                                  obj/RawNandFlash.o
+NandFlashModel_TranslateAccess                    obj/NandFlashModel.o
+                                                  obj/BootNand.o
+NandSpareScheme_ReadBadBlockMarker                obj/NandSpareScheme.o
+NandSpareScheme_ReadEcc                           obj/NandSpareScheme.o
+                                                  obj/EccNandFlash.o
+NandSpareScheme_ReadExtra                         obj/NandSpareScheme.o
+NandSpareScheme_WriteBadBlockMarker               obj/NandSpareScheme.o
+                                                  obj/SkipBlockNandFlash.o
+NandSpareScheme_WriteEcc                          obj/NandSpareScheme.o
+                                                  obj/EccNandFlash.o
+NandSpareScheme_WriteExtra                        obj/NandSpareScheme.o
+PIO_Clear                                         obj/pio.o
+                                                  obj/RawNandFlash.o
+PIO_Configure                                     obj/pio.o
+                                                  obj/BootNand.o
+                                                  obj/board_memories.o
+                                                  obj/main.o
+PIO_Get                                           obj/pio.o
+                                                  obj/RawNandFlash.o
+PIO_GetISR                                        obj/pio.o
+PIO_GetOutputDataStatus                           obj/pio.o
+PIO_Set                                           obj/pio.o
+                                                  obj/RawNandFlash.o
+PutChar                                           obj/stdio.o
+PutHexa                                           obj/stdio.o
+PutSignedInt                                      obj/stdio.o
+PutString                                         obj/stdio.o
+PutUnsignedInt                                    obj/stdio.o
+RawNandFlash_CopyBlock                            obj/RawNandFlash.o
+RawNandFlash_CopyPage                             obj/RawNandFlash.o
+RawNandFlash_EraseBlock                           obj/RawNandFlash.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/BootNand.o
+RawNandFlash_Initialize                           obj/RawNandFlash.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/EccNandFlash.o
+RawNandFlash_ReadId                               obj/RawNandFlash.o
+RawNandFlash_ReadPage                             obj/RawNandFlash.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/EccNandFlash.o
+RawNandFlash_Reset                                obj/RawNandFlash.o
+RawNandFlash_WritePage                            obj/RawNandFlash.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/EccNandFlash.o
+SkipBlockNandFlash_EraseBlock                     obj/SkipBlockNandFlash.o
+SkipBlockNandFlash_Initialize                     obj/SkipBlockNandFlash.o
+                                                  obj/BootNand.o
+SkipBlockNandFlash_ReadBlock                      obj/SkipBlockNandFlash.o
+SkipBlockNandFlash_ReadPage                       obj/SkipBlockNandFlash.o
+                                                  obj/BootNand.o
+SkipBlockNandFlash_WriteBlock                     obj/SkipBlockNandFlash.o
+SkipBlockNandFlash_WritePage                      obj/SkipBlockNandFlash.o
+UTIL_DbguDumpMemory                               obj/util.o
+UTIL_DbguGetHexa32                                obj/util.o
+UTIL_DbguGetInteger                               obj/util.o
+UTIL_DbguGetIntegerMinMax                         obj/util.o
+__aeabi_idiv0                                     /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+                                                  /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+__aeabi_ldiv0                                     /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_dvmd_tls.o)
+__aeabi_uidiv                                     /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+                                                  obj/dbgu.o
+                                                  obj/stdio.o
+__aeabi_uidivmod                                  /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+                                                  obj/stdio.o
+__udivsi3                                         /usr/local/codesourcery/arm-none-eabi/arm-2008q1/bin/../lib/gcc/arm-none-eabi/4.2.3/libgcc.a(_udivsi3.o)
+_efixed                                           obj/board_cstartup.o
+_epostrelocate                                    obj/board_cstartup.o
+_eprerelocate                                     obj/board_cstartup.o
+_ezero                                            obj/board_cstartup.o
+_impure_ptr                                       obj/stdio.o
+                                                  obj/dbgu.o
+_prefetchICacheLine                               obj/cp15_asm.o
+_readControlRegister                              obj/cp15_asm.o
+                                                  obj/cp15.o
+_spostrelocate                                    obj/board_cstartup.o
+_sprerelocate                                     obj/board_cstartup.o
+_sstack                                           obj/board_cstartup.o
+_szero                                            obj/board_cstartup.o
+_waitForInterrupt                                 obj/cp15_asm.o
+_writeControlRegister                             obj/cp15_asm.o
+                                                  obj/cp15.o
+_writeDomain                                      obj/cp15_asm.o
+_writeITLBLockdown                                obj/cp15_asm.o
+_writeTTB                                         obj/cp15_asm.o
+defaultFiqHandler                                 obj/board_lowlevel.o
+defaultIrqHandler                                 obj/board_lowlevel.o
+defaultSpuriousHandler                            obj/board_lowlevel.o
+entry                                             obj/board_cstartup.o
+fprintf                                           obj/stdio.o
+fputc                                             obj/dbgu.o
+fputs                                             obj/dbgu.o
+                                                  obj/stdio.o
+main                                              obj/main.o
+                                                  obj/board_cstartup.o
+memcpy                                            obj/string.o
+                                                  obj/EccNandFlash.o
+                                                  obj/stdio.o
+memset                                            obj/string.o
+                                                  obj/SkipBlockNandFlash.o
+                                                  obj/EccNandFlash.o
+nandFlashModelList                                obj/NandFlashModelList.o
+                                                  obj/RawNandFlash.o
+nandSpareScheme2048                               obj/NandSpareScheme.o
+                                                  obj/NandFlashModelList.o
+nandSpareScheme256                                obj/NandSpareScheme.o
+                                                  obj/NandFlashModelList.o
+nandSpareScheme512                                obj/NandSpareScheme.o
+                                                  obj/NandFlashModelList.o
+printf                                            obj/stdio.o
+                                                  obj/NandSpareScheme.o
+                                                  obj/EccNandFlash.o
+                                                  obj/RawNandFlash.o
+                                                  obj/util.o
+putchar                                           obj/dbgu.o
+                                                  obj/util.o
+puts                                              obj/stdio.o
+r                                                 obj/stdio.o
+snprintf                                          obj/stdio.o
+sprintf                                           obj/stdio.o
+strchr                                            obj/string.o
+strcpy                                            obj/string.o
+strlen                                            obj/string.o
+strncmp                                           obj/string.o
+strncpy                                           obj/string.o
+strrchr                                           obj/string.o
+tabDesc                                           obj/main.o
+vfprintf                                          obj/stdio.o
+vprintf                                           obj/stdio.o
+vsnprintf                                         obj/stdio.o
+vsprintf                                          obj/stdio.o
