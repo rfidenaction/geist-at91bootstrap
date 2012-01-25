@@ -249,6 +249,13 @@ static unsigned char ShallEraseBootstrap()
     return 0;
 }
 
+static void Led1Enable(void)
+{
+  const Pin pLeds[] = {PINS_LEDS};
+  PIO_Configure(pLeds, PIO_LISTSIZE(pLeds));
+  PIO_Clear(&pLeds[0]);
+}
+
 //------------------------------------------------------------------------------
 /// Bootstrap main application.
 /// Transfer data from media to main memory and return the next application entry
@@ -275,6 +282,7 @@ int main()
     AT91C_BASE_MATRIX->MATRIX_USBPCR = ~AT91C_MATRIX_USBPCR_PUON;
     #endif
 
+    Led1Enable();
 
     //-------------------------------------------------------------------------
     // Test if at91bootstrap shall be erased (button pressed by user)

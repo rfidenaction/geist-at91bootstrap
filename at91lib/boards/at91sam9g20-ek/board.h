@@ -216,15 +216,9 @@
 #define PINS_DBGU  {(1<<14) | (1<<15), AT91C_BASE_PIOB, AT91C_ID_PIOB, PIO_PERIPH_A, PIO_DEFAULT}
 
 /// LED #0 pin definition.
-#define PIN_LED_0   {1 << 9, AT91C_BASE_PIOA, AT91C_ID_PIOA, PIO_OUTPUT_0, PIO_DEFAULT}
-/// LED #1 pin definition.
-#define PIN_LED_1   {1 << 6, AT91C_BASE_PIOA, AT91C_ID_PIOA, PIO_OUTPUT_1, PIO_DEFAULT}
+#define PIN_LED_0   {1 << 31, AT91C_BASE_PIOB, AT91C_ID_PIOB, PIO_OUTPUT_0, PIO_DEFAULT}
 /// List of all LED definitions.
-#define PINS_LEDS   PIN_LED_0, PIN_LED_1
-/// Power LED index.
-#define LED_POWER       0
-/// DS1 LED index.
-#define LED_DS1         1
+#define PINS_LEDS   PIN_LED_0
 
 /// Push button #1 pin definition.
 #define PIN_PUSHBUTTON_1  {1 << 30, AT91C_BASE_PIOA, AT91C_ID_PIOA, PIO_INPUT, PIO_PULLUP}
