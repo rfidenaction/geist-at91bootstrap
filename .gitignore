@@ -1,3 +1,2 @@
-at91bootstrap/bin/boot-at91sam9g20-ek-nandflash2sdram.elf
-at91bootstrap/bin/boot-at91sam9g20-ek-nandflash2sdram.map
+at91bootstrap/bin/*
 at91bootstrap/obj/
