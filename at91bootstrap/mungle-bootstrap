@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# This script modifies the bootstrap binary in order to include the
+# bootstrap size in the 6th ARM exception vector, as required by the
+# SAM-BA AT91 specifications.
+
+if [ $# -ne 1 ] ; then
+    echo "Usage: mungle-bootstrap FILENAME"
+    exit 1
+fi
+
+f=$1
+bootloadersize=$(cat $f | wc -c)
+
+# Extract it byte by byte so that we can output it in little-endian
+b1=$(printf "%x" $(($bootloadersize & 0xFF)))
+b2=$(printf "%x" $((($bootloadersize & 0xFF00) >> 8)))
+b3=$(printf "%x" $((($bootloadersize & 0xFF0000) >> 16)))
+b4=$(printf "%x" $((($bootloadersize & 0xFF000000) >> 24)))
+
+# Output the size at offset 20 (6th ARM exception vector)
+printf "\x$b1\x$b2\x$b3\x$b4" | dd of=$f bs=1 seek=20 conv=notrunc > /dev/null 2>&1
+
